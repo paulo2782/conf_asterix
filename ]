@@ -1,0 +1,14 @@
+;!
+;! Automatically generated configuration file
+;! Filename: extensions.conf (/etc/asterisk/extensions.conf)
+;! Generator: Manager
+;! Creation Date: Fri Mar 12 22:16:22 2021
+;!
+[general]
+
+[sets]
+
+exten => _XXX,1,NoOp()
+same => n,Dial(PJSIP/${EXTEN})
+[teste]
+

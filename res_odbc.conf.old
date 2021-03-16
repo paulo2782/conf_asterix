@@ -1,0 +1,7 @@
+[asterisk]
+enabled => yes
+dsn => asterisk
+username => asterisk
+password => 26031949Pa!
+pre-connect => yes
+

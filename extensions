@@ -1,0 +1,35 @@
+;!
+;! Automatically generated configuration file
+;! Filename: extensions.conf (/etc/asterisk/extensions.conf)
+;! Generator: Manager
+;! Creation Date: Fri Mar 12 22:16:45 2021
+;!
+[general]
+
+[globals]
+
+;TOLL=PJSIP/nvoip
+;LOCAL=${TOLL}
+
+;[sets]
+;exten => _XXXXXXXXXXX,1,Answer()
+;exten => _X.,1,Dial(PJSIP/nvoip/${EXTEN},60)
+
+;exten => _9.,1,Dial(PJSIP/${EXTEN})
+;exten => _9.,n,Playtones(congestion)
+;exten => _9.,n,Hangup()
+
+;exten => _X.,2,NoOP()
+;same => n,Dial(PJSIP/nvoip/${EXTEN},60)
+
+;exten => _X.,1,Dial(PJSIP/${EXTEN},60) 
+
+
+;exten = 100,hint,PJSIP/100
+;exten = 101,hint,PJSIP/101
+;exten = 200,hint,PJSIP/200
+;exten = 330,hint,PJSIP/330
+
+[test]
+exten => 100,1,Dial(SIP/100)
+;exten => 101,1,Dial(SIP/101)
